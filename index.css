@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+/* header nav */
+.header > .nav {
+  width: 100vw;
+  /* height: 5%; */
+  background-color: grey;
+  padding: 17px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.nav .nav-profile {
+  display: flex;
+}
+
+.nav-profile > li {
+  margin-right: 35px;
+  list-style: none;
+}
+
+.nav-profile > li:hover {
+  background-color: darkgrey;
+  letter-spacing: 4px;
+  transition: linear 0.5s;
+}
+
+.nav-profile > li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* main */
+/* article */
+.main {
+  padding: 32px;
+  width: 100vw;
+  height: 755px;
+}
+
+.article-title .article-title__name {
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+  margin: 20px 0;
+}
+
+.article-title .article-title__image {
+  overflow: hidden;
+  width: 250px;
+}
+
+.article-title .article-title__image img {
+  width: 250px;
+  height: 320px;
+}
+.article-title .article-title__image img:hover {
+  transition: transform ease-in-out 0.6s;
+  transform: scale(1.2);
+}
+.article-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-content section {
+  width: 50%;
+}
+.article-content ol {
+  list-style: decimal;
+  margin: 16px 0;
+  padding-left: 40px;
+}
+.article-content ul {
+  list-style: initial;
+  padding-left: 40px;
+  margin: 16px 0;
+}
+.article-content li {
+  line-height: 22px;
+}
+.article-content .section-spec__first {
+  list-style: none;
+  padding-left: 0;
+}
+.article-content .section-spec__first span:first-child {
+  font-weight: bold;
+}
+.article-content .section-spec__first span:last-child {
+  font-weight: initial;
+}
+.article-content section > span {
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  margin: 30px 0 20px 0;
+}
+
+/* footer */
+.footer {
+  background-color: #d3d3d3;
+  width: 100vw;
+  height: 153px;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
