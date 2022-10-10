@@ -1,0 +1,4 @@
+bundle exec jekyll serve 을 터미널에 입력 후 
+로컬호스트 4000번 접속
+
+--- 으로 index.html 에서 맨위에 감싼것은 config_yml 설정 가져오는것
